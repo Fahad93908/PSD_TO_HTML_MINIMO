@@ -1,0 +1,133 @@
+* { margin: 0px; padding: 0px; }
+header { width: 90%; margin: auto; display: flex; justify-content: space-between; height: 50px; align-items: center; }
+.logo { width: 20%; }
+.logo img { }
+nav { width: 50%; }
+nav ul { list-style: none; display: flex; justify-content: space-between; }
+nav ul li { }
+nav ul li a { text-decoration: none; color: rgb(98, 98, 98); text-transform: uppercase; font-size: 18px; font-family: "Playfair Display", serif; }
+.banner { width: 90%; margin: auto; }
+.banner img { width: 100%; }
+.photodairy_section { width: 80%; margin: auto; padding: 100px; }
+.photodairy_section h5 { margin-bottom: 30px; color: rgb(180, 173, 158); font-size: 18px; text-transform: uppercase; }
+.photodairy_section h1 { font-family: "Playfair Display", serif; color: rgb(98, 98, 98); font-size: 40px; }
+.photodairy_section p { margin: 40px 0px; color: rgb(98, 98, 98); font-family: "Playfair Display", serif; text-align: justify; }
+.lifestyle_content { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.lifestyle1 { width: 45%; margin-top: 50px; }
+.lifestyle1 img { width: 100%; }
+.lifestyle1 h5 { margin-bottom: 30px; margin-top: 30px; }
+.lifestyle1 p { margin: 40px 0px; }
+.lifestyle1 h1 { font-size: 32px; }
+.SignUp { background: rgb(240, 240, 240); padding: 100px 0px; }
+.SignUp_Content {width: 33%;margin: auto;text-align: center;position: relative;}
+.SignUp_Content h1 {font-size: 34px;color: rgb(51, 51, 51);font-weight: 400;margin-bottom: 90px;font-family:  "Playfair Display", serif;}
+.SignUp_Content input {background: transparent;border-top: none;border-right: none;border-left: none;border-image: initial;border-bottom: 3px solid rgb(204, 204, 204);width: 99%;padding: 10px 0px;}
+.SignUp_Content input::placeholder{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: "Playfair Display", serif;
+
+    
+}
+.SignUp_Content input:focus{
+    outline: none;
+}
+.icon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.Load_More{
+
+height: 200px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-bottom: 150px;
+}
+.Load_More button{
+    
+background: transparent;
+    
+/* border: none; */
+    
+border: 1px solid #bdb1b1;
+    
+padding: 25px;
+    
+font-size: 27px;
+    
+font-family: "Playfair Display", serif;
+}
+footer{
+
+background: #f0f0f0;
+
+height: 100px;
+
+display: flex;
+
+align-items: center;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+width: 22%;
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms ul li{
+
+}
+.terms ul li a{
+
+text-decoration: none;
+
+color: #626262;
+
+font-size: 18px;
+}
+.social_icon{
+
+width: 13%;
+}
+.social_icon ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.social_icon ul li{
+    
+color: #626262;
+    
+font-size: 18px;
+}
+.social_icon ul li a{
+    
+color: #626262;
+    
+font-size: 18px;
+}
